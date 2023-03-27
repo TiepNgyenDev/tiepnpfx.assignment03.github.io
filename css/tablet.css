@@ -1,0 +1,135 @@
+@media (max-width: 992px) {
+  /* Navbar */
+  .nav .nav-name,
+  .nav .nav-img {
+    display: none;
+  }
+
+  .nav .grid {
+    grid-template-columns: 150px 150px 50px 150px 150px;
+  }
+
+  .nav a:link,
+  .nav a:visited {
+    padding: 10px 10px;
+  }
+
+  .nav a:nth-child(4) {
+    grid-column: 4 / 5;
+  }
+
+  .nav a:nth-child(5) {
+    border-right: 1px solid var(--secondary-color);
+  }
+
+  .icon-user,
+  .icon-doc-text-inv,
+  .icon-mail-alt,
+  .icon-star-1 {
+    font-size: 20px;
+  }
+
+  /* Phần Chứng chỉ - Giải thưởng */
+  .certificate-content {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .certificate-content > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .certificate--3 > img {
+    width: 48%;
+  }
+
+  /* Phần Dự án */
+  .project-title-1 {
+    font-size: 14px;
+  }
+
+  .project-title-2 {
+    font-size: 12px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  .icon-user-1,
+  .icon-lamp {
+    font-size: 12px;
+  }
+
+  .item-1,
+  .item-2,
+  .item-3 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* Xây dựng phần footer */
+  .footer ul {
+    gap: 20px;
+  }
+
+  .footer a:link,
+  .footer a:visited {
+    font-size: 16px;
+  }
+
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled,
+  .icon-instagram-circled {
+    font-size: 16px;
+  }
+
+  /* Project Charter */
+  .project-charter h2 {
+    font-size: 20px;
+  }
+
+  .project-charter h3 {
+    font-size: 16px;
+  }
+
+  .project-charter p {
+    font-size: 14px;
+  }
+  .project-icon {
+    padding-bottom: 0 !important;
+    margin-top: 20px;
+  }
+
+  .project-text {
+    padding-top: 0 !important;
+  }
+
+  .scopes {
+    padding-bottom: 0 !important;
+  }
+
+  .scopes > h3 {
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+  }
+
+  .scopes > .scopes-list {
+    padding-bottom: 0 !important;
+  }
+
+  .primary .project-icon {
+    margin-top: 32px;
+  }
+
+  .timeline {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+  }
+
+  .timeline .project-text {
+    border-bottom: 3px dotted #0d6efd !important;
+  }
+}

@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+  /* Navbar */
+  .nav > .container {
+    padding: 48px 32px;
+  }
+
+  .nav .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+  }
+
+  .nav a:link,
+  .nav a:visited {
+    border: none;
+    padding: 4px 8px;
+  }
+
+  .nav a:hover {
+    border-radius: 20px;
+  }
+
+  /* Mục tiêu nghề nghiệp */
+  .showcase .showcase-target {
+    height: 100%;
+  }
+
+  /* Phần Chứng chỉ - Giải thưởng */
+  .certificate--3 > img {
+    width: 100%;
+  }
+
+  .certificate--2 {
+    border-top: 1px solid var(--border-color);
+    padding: 48px 12px 0 12px;
+    border-left: 0;
+  }
+
+  /* Phần Dự án */
+  .project-title-1 {
+    font-size: 1rem;
+  }
+
+  .project-title-2 {
+    font-size: 14px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .icon-user-1,
+  .icon-lamp {
+    font-size: 14px;
+  }
+
+  .item-1,
+  .item-2,
+  .item-3 {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  /* Xây dựng phần footer */
+  .footer ul {
+    gap: 14px;
+  }
+
+  .footer a:link,
+  .footer a:visited {
+    font-size: 12px;
+  }
+
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled,
+  .icon-instagram-circled {
+    font-size: 12px;
+  }
+}
